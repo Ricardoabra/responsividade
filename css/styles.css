@@ -8,3 +8,16 @@ h1{
         color: blue;
     }
 }
+ /*MIN-WIDTH*/
+
+ p{
+    background-color: black;
+    color: white;
+ }
+
+ @media screen and (min-width: 800px) {
+    p{
+        background-color: white;
+        color: black;
+     }
+ }
