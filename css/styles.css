@@ -21,3 +21,12 @@ h1{
         color: black;
      }
  }
+/*Landscape*/
+ h3{
+    display: none;
+ }
+ @media screen and (orientation: landscape) {
+    h3{
+        display: block;
+     }
+ }
